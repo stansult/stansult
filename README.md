@@ -10,19 +10,19 @@ I also build browser extensions, games and small tools. I enjoy figuring out how
 
 ### Dropdown Extractor
 
-Copy the options from a dropdown to your clipboard, including their displayed text and underlying values. Supports native dropdowns and many custom implementations. Includes a playground and Playwright tests that exercise the real extension.
+Extracts dropdown options to the clipboard, including their displayed text and underlying values. Supports native dropdowns and many custom implementations. Includes a playground and Playwright tests that exercise the real extension.
 
 [Chrome Web Store](https://chromewebstore.google.com/detail/dropdown-extractor/gbocefdbkfckcdbdhmaipklcfhgmeghm) · [Playground](https://dropdown-extractor.stansult.com) · [Source](https://github.com/stansult/dropdown-extractor)
 
 ### Album Filter
 
-Find albums in long Facebook photo-album lists with in-page filtering and automatic loading. Its test playground covers dynamic content, filtering and UI behavior, with TypeScript and Playwright coverage.
+Adds in-page filtering and automatic loading to long Facebook photo-album lists. Its test playground covers dynamic content, filtering and UI behavior, with TypeScript and Playwright coverage.
 
 [Chrome Web Store](https://chromewebstore.google.com/detail/hflbafejehpoclienjonceojnnlckahm) · [Playground](https://album-filter.stansult.com) · [Source](https://github.com/stansult/album-filter)
 
 ### Table Filter
 
-Scan a virtualized table into a local view, then filter and sort its rows in the browser. Currently focused on the My Shows table at [TrackSeries](https://trackseries.tv/myshows).
+Scans a virtualized table into a local view for filtering and sorting in the browser. Currently focused on the My Shows table at [TrackSeries](https://trackseries.tv/myshows).
 
 [Source and installation](https://github.com/stansult/table-filter)
 
@@ -30,9 +30,9 @@ Scan a virtualized table into a local view, then filter and sort its rows in the
 
 ### Faker
 
-A multiplayer browser party game for 3–20 players. Most players know a secret word and give clues. One player has to bluff their way through without knowing it.
+A multiplayer browser party game for 3–20 players, where most players give clues about a secret word while one player bluffs without knowing it.
 
-I built the game with a JavaScript frontend, a serverless backend and persistent room state. Tests cover game logic, API workflows and multiplayer browser scenarios, with CI checks before deployment.
+JavaScript frontend, serverless backend and persistent room state support shared game sessions, with tests covering game logic, API workflows and multiplayer browser scenarios. CI checks run before deployment.
 
 [Play Faker](https://play-faker.us) · [Source](https://github.com/stansult/faker)
 
@@ -40,11 +40,35 @@ I built the game with a JavaScript frontend, a serverless backend and persistent
 
 A few small utilities for everyday tasks.
 
-- **[Screenshots](https://github.com/stansult/screenshots)** is a bash script that prepares and combines screenshot images.
-  - **Montage** mode combines images into one layout.
-  - **Zip** mode pairs corresponding images from multiple sets.
-  - **Each** mode processes images individually.
-  - **Paginate** splits a long screenshot into a paged pdf.
-- **[PDF Slim](https://github.com/stansult/pdf-slim)** reduces PDF sizes and cleans up scanned documents, with configurable quality and output options.
-- **[Circle Img](https://github.com/stansult/circle-img)** prepares images for circular crops, keeping meaningful content inside the circle. Useful for contact pictures and avatars.
-- **[Thread Splitter](https://github.com/stansult/slice-txt)** ([source](https://thread-splitter.stansult.com)) is a browser tool that splits long text into thread-ready posts, with emoji-aware character counting and formatting options.
+### Screenshots
+
+A Bash/ImageMagick utility for transforming, combining, and pairing screenshots.
+
+- **Montage** combines images into one layout.
+- **Zip** pairs corresponding images from multiple sets.
+- **Each** processes images individually.
+- **Paginate** splits a long screenshot into a paged PDF.
+
+Regression tests cover image transformations, file handling, input validation and error behavior.
+
+[Source](https://github.com/stansult/screenshots)
+
+### PDF Slim
+
+Utilities for reducing PDF sizes and cleaning up scanned documents, with configurable quality and output options.
+
+[Source](https://github.com/stansult/pdf-slim)
+
+### Circle Img
+
+An image utility that adds padding for circular crops, keeping meaningful content inside the circle. Useful for contact pictures and avatars.
+
+[Source](https://github.com/stansult/circle-img)
+
+### Thread Splitter
+
+A browser-only JavaScript tool that splits long text into thread-ready parts within configurable character limits.
+
+TypeScript/Playwright desktop and mobile tests cover split boundaries, input workflows, clipboard actions and JSON export. GitHub Actions CI gates deployment on passing tests.
+
+[Try it](https://thread-splitter.stansult.com) · [Source](https://github.com/stansult/slice-txt)
