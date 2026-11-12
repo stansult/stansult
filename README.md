@@ -73,6 +73,14 @@ Previews changes before confirmation, with offline tests covering authorization,
 
 [Source](https://github.com/stansult/contacts-cli)
 
+### 1Password Items
+
+A Python command-line tool for searching 1Password items and previewing bulk field changes and tag additions before applying them.
+
+Simulated CLI tests cover search, item selection, tag preservation and partial failures.
+
+[Source](https://github.com/stansult/1password-items)
+
 ### Thread Splitter
 
 A browser-only JavaScript tool that splits long text into thread-ready parts within configurable character limits.
