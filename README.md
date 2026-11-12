@@ -65,6 +65,14 @@ An image utility that adds padding for circular crops, keeping meaningful conten
 
 [Source](https://github.com/stansult/circle-img)
 
+### Contacts CLI
+
+A local Python tool for working with Google Contacts. Adds missing sender addresses from a Gmail label to an existing contact, or duplicates a contact with an optional replacement name.
+
+Previews changes before confirmation, with offline tests covering authorization, contact preservation and error handling.
+
+[Source](https://github.com/stansult/contacts-cli)
+
 ### Thread Splitter
 
 A browser-only JavaScript tool that splits long text into thread-ready parts within configurable character limits.
