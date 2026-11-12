@@ -10,8 +10,18 @@ I also build browser extensions, games and small tools. I enjoy figuring out how
 <summary>Contents</summary>
 
 - [Chrome extensions](#chrome-extensions)
+  - [Dropdown Extractor](#dropdown-extractor)
+  - [Album Filter](#album-filter)
+  - [Table Filter](#table-filter)
 - [Games](#games)
+  - [Faker](#faker)
 - [Tools](#tools)
+  - [Screenshots](#screenshots)
+  - [PDF Slim](#pdf-slim)
+  - [Circle Img](#circle-img)
+  - [Contacts CLI](#contacts-cli)
+  - [1Password Items](#1password-items)
+  - [Thread Splitter](#thread-splitter)
 
 </details>
 
