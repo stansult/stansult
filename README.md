@@ -40,7 +40,7 @@ I built the game with a JavaScript frontend, a serverless backend and persistent
 
 A few small utilities for everyday tasks.
 
-- **[Screenshots](https://github.com/stansult/screenshots)** prepares and combines screenshot images.
+- **[Screenshots](https://github.com/stansult/screenshots)** is a bash script that prepares and combines screenshot images.
   - **Montage** mode combines images into one layout.
   - **Zip** mode pairs corresponding images from multiple sets.
   - **Each** mode processes images individually.
