@@ -6,11 +6,14 @@ I also build browser extensions, games and small tools. I enjoy figuring out how
 
 [Online resume](https://stansult.com/resume) · [LinkedIn](https://www.linkedin.com/in/stansult/)
 
-## Contents
+<details>
+<summary>Contents</summary>
 
 - [Chrome extensions](#chrome-extensions)
 - [Games](#games)
 - [Tools](#tools)
+
+</details>
 
 ## Chrome extensions
 
